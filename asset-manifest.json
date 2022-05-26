@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hayeon2kang/movie_app_20210323/static/css/main.7ca3b67a.css",
+    "main.js": "/hayeon2kang/movie_app_20210323/static/js/main.bd755f22.js",
+    "index.html": "/hayeon2kang/movie_app_20210323/index.html",
+    "main.7ca3b67a.css.map": "/hayeon2kang/movie_app_20210323/static/css/main.7ca3b67a.css.map",
+    "main.bd755f22.js.map": "/hayeon2kang/movie_app_20210323/static/js/main.bd755f22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ca3b67a.css",
+    "static/js/main.bd755f22.js"
+  ]
+}
