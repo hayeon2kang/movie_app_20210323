@@ -1,7 +1,7 @@
 .de_movie {
   width: 90%;
   background-color: white;
-  margin: 60px;
+  margin: 100px;
   font-weight: 500;
   padding: 20px;
   border-radius: 5px;
@@ -13,29 +13,25 @@
 .de_movie img {
   position: relative;
   top: 50px;
-  max-width: 300px;
+  max-width: 350px;
   width: 100%;
   margin-left: 50px;
-  margin-right: 30px;
+  margin-right: 50px;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
               0 18px 36px -18px rgba(0, 0, 0, 0.3),
               0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
-
 .de_movie .de_movie__title {
-  margin: 10px;
-  font-weight: 500;
+  margin: 500px;
+  font-weight: 700;
   position: relative;
-  margin-top: 50px;
+  margin-top: -450px;
   font-size: 34px;
   color: #2c2c2c;
 }
-.de_movie .de_movie__genres {
+.de_movie .de_movie_summary {
   text-decoration: initial;
   padding: 0;
-  margin: 20px;
-}
-.de_movie__genres li {
-  margin-right: 10px;
-  font-size: 14px;
+  margin: 500px;
+  margin-top: -450px;
 }

@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
 import { useLocation, useNavigate } from "react-router-dom";
+import './Detail.css';
 
 function Detail() {
   const location = useLocation();
@@ -21,11 +22,6 @@ function Detail() {
             <h3 className='de_movie__title'>
               {location.state.title}
             </h3>
-            <ul className='de_movie__genres'>
-              {location.state.genres.map((genre, index) => {
-                return <li key={index} className='de_movie__genre'>{genre}</li>
-              })}
-            </ul>
             <p className='de_movie_summary'>{location.state.summary}</p>
           </div>
         </div>
